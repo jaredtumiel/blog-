@@ -7,7 +7,7 @@ comments: true
 
 ---
 
-Robert Boyle (yes the one from high-school chemistry) kept a list of technologies he thought humanity should pursue.
+Robert Boyle (yes the one from high-school chemistry) kept a list of technologies he thought humanity should pursue:
 
 ![Robert Boyle's wishlist]({{ site.baseurl }}/images/techno-optimism/boyle.jpg)
 
@@ -145,7 +145,7 @@ More things to be excited about:
 
 > Yes, I'm optimistic about the optimists
 
-Stagnation - both technological and economic - is bad. Luckily, having identified the shape of the problem (or at least maybe [the year it started?](https://wtfhappenedin1971.com/)), we can start to look for solutions. The "progress studies" crowd[^6] - a group of people determined to understand the causes of productivity stagnation and how we can return to or even exceed previous high levels of growth - is a great signpost to others that we should and do care about pushing society down a path of growth and technological development.
+Stagnation - both technological and economic - is bad. Luckily, having identified the shape of the problem (or at least maybe [the year it started?](https://wtfhappenedin1971.com/)), we can start to look for solutions. The "progress studies" crowd[^6] - a group of people determined to understand the causes of productivity stagnation and how we can return to or even exceed previous high levels of growth - is a great signpost to others that we should-and-do care about pushing society down a path of growth and technological development.
 
 I think there's a whole conversation to be had about the kinds of memes we distribute and the extent to which our media and our civilisational storytelling can be a driving force for progress. Personally I find reading the techno-optimists to be infectiously optimism-inducing, and I think that's a flywheel worth spinning up!
 
