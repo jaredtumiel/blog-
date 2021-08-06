@@ -2,6 +2,7 @@
 layout: post
 title: Hamming-Enablers and The Tech In Techno-Optimism - part 1
 description: Part 1 - Computation, Intelligence and Coordination + Progress, Institutions, and Politics
+toc: true
 comments: true
 
 ---
