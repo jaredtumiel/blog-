@@ -18,25 +18,27 @@ I too have a list (but alas, no highschoolers have heard of Tumiel's Law) and th
 
 Boyle penned his list in the 1600s, which means that 300 years ago it was possible for a smart natural philosopher to conceive of these things being possible. So why the ~250 year delay between the list and the Wright Brothers? Why are psychedelics only really entering the (clinical) mainstream today? Why is human longevity not a solved problem already?
 
-Each technology will have its own story of economic, scientific, design, and production challenges, but the general point I want to get at is the distinction between technologies we can easily imagine (or suspect are possible), yet don't currently know how to tackle.
+Each technology will have its own story of economic, scientific, design, and production challenges, but the general point I want to get at is the gap between technologies we can easily imagine (or suspect are possible), yet don't currently know how to tackle.
 
-The easiest way to understand this is through the idea of a tech-tree in video games: you can't just unlock nuclear power if you haven't unlocked mining, refinement, the physics of nuclear chain reactions, etc. It's easy for anyone to look at birds flying and know that in-principle, heavier-than-air-flight is possible. It's more difficult to backchain to what intermediate developments in fluid mechanics, calculus, material science, and powertrain development are needed to build an aeroplane.
+The easiest way to understand this is through the idea of a tech-tree in video games: you can't just unlock nuclear power if you haven't first researched mining, uranium refinement, the physics of nuclear chain reactions, etc. It's easy for anyone to look at birds flying and know that in-principle, heavier-than-air-flight is possible. It's more difficult to backchain to what intermediate developments in fluid mechanics, calculus, materials science, and powertrain development are needed to build an aeroplane.
 
-**So what's a Hamming Enabler?** Richard Hamming (of Bell Labs glory-days fame) in his famous speech on doing exceptional research *You and Your Research* has this to say:
+![Civilisation's Tech Tree]({{ site.baseurl }}/images/techno-optimism/tech_tree.jpeg)
 
-> Most great scientists know many important problems. They have something  between 10 and 20 important problems for which they are looking for an attack.  And when they see a new idea come up, one hears them say "Well that bears on this problem.'' They drop all the other things and get after it.
+**So what's a Hamming Enabler?** Richard Hamming (of Bell Labs fame) in his famous speech [*You and Your Research*](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) has this to say:
 
-Gian-Carlo Rota, in his advice to young scientists, quotes Richard Feynman, who offers a similar piece of advice:
+> Most great scientists know many important problems. They have something between 10 and 20 important problems for which they are looking for an attack. And when they see a new idea come up, one hears them say "Well that bears on this problem.'' They drop all the other things and get after it.
 
-> Richard  Feynman was fond of giving the following advice on how to be a genius. You have to keep a dozen of your favourite problems constantly present in your mind, although by and large they will lay in a dormant state. Every time you hear or read a new trick or a new result, test it against each of your twelve problems to see whether it helps. Every once in a while there will be a hit, and people will say, “How did he do it?He must be a genius!”
+Gian-Carlo Rota, in his [advice to his younger colleagues](https://www.ams.org/notices/199701/comm-rota.pdf), quotes Richard Feynman, who offers a similar piece of advice:
 
-And it's not just dudes from the 1900s who think this is something worth doing! Here's Ed Boyden[^1] saying much the same thing: 
+> Richard Feynman was fond of giving the following advice on how to be a genius. You have to keep a dozen of your favourite problems constantly present in your mind, although by and large they will lay in a dormant state. Every time you hear or read a new trick or a new result, test it against each of your twelve problems to see whether it helps. Every once in a while there will be a hit, and people will say, “How did he do it? He must be a genius!”
+
+And it's not just dudes from the 1900s who think this is something worth doing! Here's Ed Boyden[^1] saying [much the same thing](https://www.huffpost.com/entry/ed-boyden-how-to-think_n_57d6b584e4b03d2d459b4b50): 
 
 > ... I really try to make my schedule safe for serendipity. I spend a lot of time going over old conversation summaries. A lot of the old ones are about ideas that ended in failure, the project didn’t work. But hey, you know what? That was five years ago, and now computers are faster, or some new information has come along, the world is different. So we’re able to reboot the project
 
-So we have have two rather-famous-Richards (two well-regarded-Dicks?) and neuroscience superstar Ed Boyden giving similar advice: know the ins and outs of a particular problem, the current bottlenecks and limitations, then as you bump into novel ideas, analytical techniques, manufacturing or technical procedures, you can quickly ask yourself if the new thing could possibly enable progress on one of your pet problems. I call a new process, material, technique, model, mathematical paradigm, or physical law which enables progress on a difficult technical problem a Hamming Enabler.
+So we have have two rather-famous-Richards and neuroscience superstar Ed Boyden giving similar advice: know the ins and outs of a few particular problems, the current bottlenecks and limitations. Then as you bump into novel ideas, analytical techniques, manufacturing, or technical procedures, you can quickly ask yourself if the new thing could possibly enable progress on one of your pet problems. I call a new process, material, technique, model, mathematical paradigm, or physical law which enables progress on a difficult technical problem a ***Hamming Enabler***.
 
-Hamming Enablers are interesting retrospectively and prospectively. Retrospectively, we can ask why powered flight was not invented in the 1600s, or we can ask what had changed around 1903 that suddenly made it tractable. Prospectively, we can ask what tech a given new development might Hamming-Enable (does it make sense as a verb?), or reverse the question and ask what Hamming Enablers we might require to reach a certain technological goal (the backward-chaining idea I mentioned earlier). 
+Hamming Enablers are interesting retrospectively and prospectively. Retrospectively, we can ask why powered flight was not invented in the 1600s, or we can ask what had changed around 1903 that suddenly made it tractable. Prospectively, we can ask what tech a given new development might Hamming-Enable (does that make sense?), or reverse the question and ask what Hamming Enablers we might require to reach a certain technological goal (the backward-chaining idea I mentioned earlier). 
 
 So, without further delay, let's step through the list[^2] 
 
