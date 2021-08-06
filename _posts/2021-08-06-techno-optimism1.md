@@ -158,7 +158,7 @@ On a less existentially-critical note, designing better policy and incentive str
 
 ### Meaningness, and meta-rationality
 
-This last entry might seem out of place on a list that's been primarily technology-focused, but if we are to [increase our power over the universe](https://youtu.be/_L3gNaAVjQ4?t=1831), we should invest a commensurate amount of energy in being wise enough to use it wisely I think the EAs and other longtermists are making a good start here, but one project that's made the most difference personally is David Chapman's work at [Meaningness](https://meaningness.com/), [Vividness](https://vividness.live/), and on [metarationality](https://metarationality.com/). It's hard to say where to start because his writing is this sprawling *nebulous* living document, but [here](https://metarationality.com/stem-fluidity-bridge), [here](https://vividness.live/developing-ethical-social-and-cognitive-competence), and [here](https://meaningness.com/an-appetizer-purpose) are pretty solid jumping off points. Chapman gently builds up a framework for dealing with the dimensions of what he calls "meaningness". The tagline for the site is "*Better ways of thinking, feeling, and acting—around problems of meaning and meaninglessness; self and society; ethics, purpose, and value.*" and it's pretty accurate. It's hard to try and vouch for this particular set of ideas about meaning without sounding like every other religion/cult/self-help-guru trying to advocate for *their* One True Solution to Your Life's Problems. Thankfully, *Meaningness* is written as a set of ideas, not a complete *system*, often in the style of a manual with things to try for *particular* problems. It's the thing I've recommended most often to friends when they're having problems that *can't* be solved with a debugger or an trick for doing a weird integral.
+This last entry might seem out of place on a list that's been primarily technology-focused, but if we are to [increase our power over the universe](https://youtu.be/_L3gNaAVjQ4?t=1831), we should invest a commensurate amount of energy in learning to use it wisely. I think the EAs and other longtermists are making a good start here, but something that's made the most difference personally is David Chapman's work at [Meaningness](https://meaningness.com/), [Vividness](https://vividness.live/), and on [metarationality](https://metarationality.com/). It's hard to say where to start because his writing is this sprawling *nebulous* living document, but [here](https://metarationality.com/stem-fluidity-bridge), [here](https://vividness.live/developing-ethical-social-and-cognitive-competence), and [here](https://meaningness.com/an-appetizer-purpose) are pretty solid jumping off points. Chapman gently builds up a framework for dealing with the dimensions of what he calls "meaningness". The tagline for the site is "*Better ways of thinking, feeling, and acting—around problems of meaning and meaninglessness; self and society; ethics, purpose, and value.*" and it's pretty accurate. It's hard to try and vouch for this particular set of ideas about meaning without sounding like every other religion/cult/self-help-guru trying to advocate for *their* One True Solution to Your Life's Problems. Thankfully, *Meaningness* is written as a set of ideas, not a complete *system*, often in the style of a manual with things to try for *particular* problems. It's the thing I've recommended most often to friends when they're having problems that *can't* be solved with a debugger or an trick for doing a weird integral.
 
 ## Conclusion
 
@@ -172,17 +172,3 @@ The list continues in part 2, where I talk about everything I'm excited about in
 [^4]: In RL, the state space is all the possible states the agent could be in. Typically this would be positions in a gridworld. The action-space is the space of available actions e.g. at every timestep pick one of [walk left, walk forward, walk backward, walk right, stay still]. My argument is that people tend to forget that state/action spaces can be a whole lot more abstract than that, and that enables a lot of exciting applications
 [^5]: maybe the thing I admire most about Elon Musk is the fact that he actually tried to innovate in a bunch of these areas that are prototypically stymied under regulatory nonsense (spacetravel, energy, full-self-driving)
 [^6]: See for example the excellent https://rootsofprogress.org/
-
-
-
-
-
-
-
-
-
-
-
-
-
-[^ 6]: 
