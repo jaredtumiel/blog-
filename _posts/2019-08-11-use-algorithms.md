@@ -2,7 +2,7 @@
 layout: post
 title: Your Algorithmic Reflection
 description: Google, Facebook, Twitter, and their advertisers want to shape your behaviour. This doesn't have to be bad.
-image: /img/cover.jpg
+image: ({{ site.baseurl }}/images/use-algos/cover.jpg)
 ---
 Most people are aware that algorithms shape their online experience. Some people understand that the algorithms' underlying incentive is to maximise time spent on-site and number of ad-clicks. **Few people know how to use this to their benefit.**
 
@@ -34,18 +34,18 @@ This is a pattern I have repeated more times than I'm comfortable admitting. It'
 
 We're collectively adrift in an ocean of online content and most of us are caught in the doldrums (the latitudes where sailors would spend months trapped, just waiting for a wind - an apt metaphor for the difficulty of escaping the *Unhappy Death Spiral* above). We find ourselves in these doldrums, directed there by algorithms tasked only with keeping us in the ocean. It's here that we see our chance of escape, for the algorithms don't care where in the ocean you are, just that you remain [^3]. The doldrums are a popular destination for the algorithms to steer you into because they work on just about anyone. To see this effect in action, just look at the kind of content that YouTube shows a first-time user who's just signed up:[^4]
 
-![YouTube first glance](/jaredtumiel.github.io/img/yt1.jpg)
+![YouTube first glance]({{ site.baseurl }}/images/use-algos/yt1.jpg)
 *A first look - I think the video game and car suggestions are the algorithms' best guess for 20-something men?*
 
 Notice that just based off of my demographics, YouTube's algorithm has identified some topics and videos they know from experience are likely to get me to stick around.
 Scrolling down a bit shows these suggestions. You can see my browsing location has made the algorithm select some local Soap Operas for me:
 
-![YouTube scroll](/jaredtumiel.github.io/img/yt2.jpg)
+![YouTube scroll]({{ site.baseurl }}/images/use-algos/yt2.jpg)
 *Not exactly Khan Academy, is it*
 
 I think the first thing to notice here is just how terrible most of these videos are. Many are clickbaitey; several fall into that strange category of simple things that humans find oddly satisfying, things which abuse some novelty switch deep inside us, like this video of someone testing to see if sharks can detect blood. 
 
-![YouTube's worst](/jaredtumiel.github.io/img/yt3.jpg)
+![YouTube's worst]({{ site.baseurl }}/images/use-algos/yt3.jpg)
 
 I haven't watched it, so I don't know what happens. But 31 million people in the past week have. That's more people than live in all of Australia. That's so many people that you could have everyone in Australia watch it and share it with everyone in Puerto Rico and everyone in Slovenia and there would still be a million views unaccounted for.
 
@@ -73,7 +73,7 @@ Start by deciding on exactly what aspect of yourself you want to improve. This c
 
 For me, I wanted to learn much more about machine learning and mathematics. I wanted to teach YouTube to find the most useful content about these topics. To keep this separate from my everyday YouTube, I created a new Google account and vowed to use it only for videos that would help me learn more about what I care about. To take away the hassle of remembering to switch between Google accounts, I set up a [FireFox container](https://support.mozilla.org/en-US/kb/containers) (for Chrome users, [this plug-in](https://chrome.google.com/webstore/detail/sessionbox-free-multi-log/megbklhjamjbcafknkgmokldgolkdfig?hl=en) appears to do something similar, but I haven't used it). Firefox containers keep all your log-in information separate for different accounts on the same website, like this:
 
-![YT GIF](/jaredtumiel.github.io/img/yt.gif)
+![YT GIF]({{ site.baseurl }}/images/use-algos/yt.gif)
 
 Note how each instance of YouTube is giving me different recommendations, with the middle one giving the most relevant ones to machine learning. Now you can keep your different online personas separate!
 
