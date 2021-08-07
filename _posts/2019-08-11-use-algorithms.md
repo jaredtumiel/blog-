@@ -45,7 +45,7 @@ Scrolling down a bit shows these suggestions. You can see my browsing location h
 
 I think the first thing to notice here is just how terrible most of these videos are. Many are clickbaitey; several fall into that strange category of simple things that humans find oddly satisfying, things which abuse some novelty switch deep inside us, like this video of someone testing to see if sharks can detect blood. 
 
-![YouTube's worst]({{ site.baseurl }}/images/use-algos/yt3.jpg)
+![YouTube's worst]({{ site.baseurl }}/images/use-algos/yt3.png)
 
 I haven't watched it, so I don't know what happens. But 31 million people in the past week have. That's more people than live in all of Australia. That's so many people that you could have everyone in Australia watch it and share it with everyone in Puerto Rico and everyone in Slovenia and there would still be a million views unaccounted for.
 
