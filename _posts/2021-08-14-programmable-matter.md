@@ -79,13 +79,21 @@ $$
 \begin{pmatrix} 0 \\ 1\end{pmatrix}
 $$
 The matrix which achieves this is 
+
+
 $$
 X = \begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix}
 $$
+
+
 and we can verify with normal matrix multiplication that:
+
+
 $$
 \begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix} \begin{pmatrix} 1 \\ 0\end{pmatrix} = \begin{pmatrix} 0 \\ 1\end{pmatrix}
 $$
+
+
 But shouldn't it be really interesting and weird to us that we can make matter itself 'act' like the matrix
 $$
 \begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix}​
