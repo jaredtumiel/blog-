@@ -102,6 +102,8 @@ $$
 $$
 X = \begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix}
 $$
+
+
 Putting that aside, it's still intriguing to think that we have this mathematical formalism that describes quantum mechanics, and we can use quantum reality to 'act out' computations of that mathematical formalism. It's apparently still unknown whether every possible physical system can be simulated in a quantum computer. David Deutsch [certainly seems to think so](https://www.edge.org/conversation/david_deutsch-constructor-theory)[^3]:
 
 > I had thought for a while that the quantum theory of computation is the  whole of physics. The reason why it seemed reasonable to think that was that a universal quantum computer can simulate any other finite physical object with arbitrary accuracy, and that means that the set of all possible motions, which is computations, of a universal computer, corresponds to the set of all possible motions of anything. There is a certain sense in which studying the universal quantum computer is the  same thing as studying every other physical object. It contains all possible motions of all possible physical objects within its own  possible diversity.
