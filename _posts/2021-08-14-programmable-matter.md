@@ -96,9 +96,9 @@ $$
 
 But shouldn't it be really interesting and weird to us that we can make matter itself 'act' like the matrix
 $$
-\begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix}​
+\begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix}?
 $$
-? (If that one doesn't impress you then imagine a more complicated set of operations on qubits until you're sufficiently impressed). I think some would say I have this exactly backwards and that matter is just doing its thing, and we're finding ways in which that is *approximately* like the matrix
+(If that one doesn't impress you then imagine a more complicated set of operations on qubits until you're sufficiently impressed). I think some would say I have this exactly backwards and that matter is just doing its thing, and we're finding ways in which that is *approximately* like the matrix
 $$
 X = \begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix}
 $$
