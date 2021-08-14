@@ -50,15 +50,35 @@ Digging into the strange hall of mirrors situation of reality simulating reality
 
 A quantum system has a number of 'base' states. Let's use the spin of an electron, which can be either 'spin-up' or 'spin-down'. Now that's a nice two-state system, rather like the on-off 'bit' which we'd use in normal computing.
 
-Let's represent the spin-up state as the vector $\begin{pmatrix} 1 \\ 0\end{pmatrix}$​​​, and the spin-down state as $\begin{pmatrix} 0 \\ 1\end{pmatrix}$​​​. If we call the whole quantum state $|\psi\rangle$​​​​, then we can[^2] represent that state as a linear combination of these two base states (a superposition, if we're feeling cool):
+Let's represent the spin-up state as the vector
+$$
+\begin{pmatrix} 1 \\ 0\end{pmatrix}​
+$$
+and the spin-down state as 
+$$
+\begin{pmatrix} 0 \\ 1\end{pmatrix}
+$$
+ If we call the whole quantum state $|\psi\rangle$​​​​​​​​​​, then we can[^2] represent that state as a linear combination of these two base states (a superposition, if we're feeling cool):
+
+
 $$
 |\psi\rangle = \alpha \begin{pmatrix} 1 \\ 0\end{pmatrix} + \beta \begin{pmatrix} 0 \\ 1\end{pmatrix}
 $$
-where $\alpha$​ and $\beta$​​​ are just coefficients telling us 'how much' of the 'up' or 'down' states we want in our total state. Now earlier we said we built up our remarkably general Universal Turing Machine with just combinations of 'logic gates' - things like the 'AND' gate, which returns '1' if both its inputs are '1', and '0' in all other cases
+
+
+where $\alpha$​​ and $\beta$​​​​ are just coefficients telling us 'how much' of the 'up' or 'down' states we want in our total state. Now earlier we said we built up our remarkably general Universal Turing Machine with just combinations of 'logic gates' - things like the 'AND' gate, which returns '1' if both its inputs are '1', and '0' in all other cases
 
 ![an AND gate]
 
-Turns out we can represent these logic gates as matrices. Let's look at the 'NOT' gate - the 'NOT' operation just flips a zero to a one and vice versa. So we want NOT('spin-up) to equal 'spin down'. Let's call the operator doing this $X$​​. We want $X$​​ acting on $\begin{pmatrix} 1 \\ 0\end{pmatrix}$​​ to give $\begin{pmatrix} 0 \\ 1\end{pmatrix}$​​. 
+Turns out we can represent these logic gates as matrices. Let's look at the 'NOT' gate - the 'NOT' operation just flips a zero to a one and vice versa. So we want NOT('spin-up) to equal 'spin down'. Let's call the operator doing this $X$​​​. We want $X$​​​ acting on
+$$
+\begin{pmatrix} 1 \\ 0\end{pmatrix}
+$$
+to give 
+$$
+\begin{pmatrix} 0 \\ 1\end{pmatrix}
+$$
+
 
 The matrix which achieves this is $X = \begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix}$​, and we can verify with normal matrix multiplication that:
 $$
