@@ -136,8 +136,11 @@ So cells and living systems generally have these properties, in addition to bein
 
 Some readers may have noticed that I casually failed to distinguish between two very different ways of programming biological matter:
 
-1) We can imagine the DNA of the cell as providing the instruction set for the cell, and by editing the DNA, we 'program' novel functions and outputs into the cell
-2) We can send cellular signals by binding molecules to membrane receptors, the intracellular machinery of the cell can process this signal, and various outputs - in the form of up- or down-regulation, signal propagation, synthetic activity, etc. - can occur
+1. We can imagine the DNA of the cell as providing the instruction set for the cell, and by editing the DNA, we 'program' novel functions and outputs into the cell
+
+   
+
+2. We can send cellular signals by binding molecules to membrane receptors, the intracellular machinery of the cell can process this signal, and various outputs - in the form of up- or down-regulation, signal propagation, synthetic activity, etc. - can occur
 
 But it's worth lingering on the various ways we can 'program' biological matter, then, because each may be useful, and they're just really cool. 
 
@@ -162,7 +165,8 @@ Indeed, a tantalising possibility, realisable by ['programming' biological circu
 #### Programming with bioelectricity
 
 ![genetic, morphological, and bioelectric coordination]({{ site.baseurl }}/images/matter/cell_dev.png)
-<p style="text-align:center";"font-size:xsmall">*This gorgeous [graphic](https://thenode.biologists.com/wp-content/uploads/2019/03/3-layers-e1551717789729.png) by Ben Oldroyd for the Levin Lab*</p>
+
+<p style="text-align:center";"font-size:x-small">*This gorgeous [graphic](https://thenode.biologists.com/wp-content/uploads/2019/03/3-layers-e1551717789729.png) by Ben Oldroyd for the Levin Lab*</p>
 
 Cellular decision making is clearly reliant on more than just the cell's genome (after all, every cell in your body has the same genome). Even if you account for different patterns of gene-expression between tissue types, we're still left with unexplained fidelity in cellular morphological coordination. Enter biolelectricity! Turns out that simple physical variables like the charge-polarisation of cells can control wide-aspects of their morphology, and coordinate cells to adaptively achieve [complex macro-scale objectives](https://pubmed.ncbi.nlm.nih.gov/26571046/) (like building an eye, or coordinating to make sure the right nerve cells make their way to that eye so that it's usable). Oh, and there is[ increasingly awesome work by Michael Levin and colleagues](https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202000140) that shows that if we intelligently intervene in these bioelectric circuits, we can alter key aspects of cell differentiation and proliferation.
 
