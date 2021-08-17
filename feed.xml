@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jaredtumiel.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jaredtumiel.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-08-17T06:01:25-05:00</updated><id>https://jaredtumiel.github.io/blog/feed.xml</id><title type="html">jared tumiel</title><subtitle>To live is to risk it all; otherwise you're just an inert chunk of randomly assembled molecules drifting wherever the universe blows you...</subtitle><entry><title type="html">In What Sense is Matter ‘Programmable’?</title><link href="https://jaredtumiel.github.io/blog/2021/08/14/programmable-matter.html" rel="alternate" type="text/html" title="In What Sense is Matter 'Programmable'?" /><published>2021-08-14T00:00:00-05:00</published><updated>2021-08-14T00:00:00-05:00</updated><id>https://jaredtumiel.github.io/blog/2021/08/14/programmable-matter</id><content type="html" xml:base="https://jaredtumiel.github.io/blog/2021/08/14/programmable-matter.html">&lt;p&gt;David Deutsch, &lt;a href=&quot;https://conversationswithtyler.com/episodes/david-deutsch/&quot;&gt;described aptly by Tyler Cowen&lt;/a&gt; as a kind of “philosopher of maximal freedom” famously points out that any state of the universe that is not explicitly prohibited by the laws of physics, is therefore realisable by some set of physical transformations using those laws. The gap between our current state and that unrealised-but-possible future state is a gap in our &lt;em&gt;knowledge&lt;/em&gt;. In this way, Deutsch elevates ‘knowledge’ to a kind of fundamental force in the universe. Our ability to create useful explanations about the physical world increases our knowledge, and by increasing our knowledge we are able to access more possible states. In a &lt;em&gt;Deutschian&lt;/em&gt; sense, the only reason humans can’t currently live for hundreds of years isn’t because it’s prohibited by the laws of thermodynamics (it’s not!), it’s because we lack the requisite knowledge to apply the correct physical transformations to matter that would prolong our lifespans.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jaredtumiel.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jaredtumiel.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-08-17T06:56:11-05:00</updated><id>https://jaredtumiel.github.io/blog/feed.xml</id><title type="html">jared tumiel</title><subtitle>To live is to risk it all; otherwise you're just an inert chunk of randomly assembled molecules drifting wherever the universe blows you...</subtitle><entry><title type="html">In What Sense is Matter ‘Programmable’?</title><link href="https://jaredtumiel.github.io/blog/2021/08/14/programmable-matter.html" rel="alternate" type="text/html" title="In What Sense is Matter 'Programmable'?" /><published>2021-08-14T00:00:00-05:00</published><updated>2021-08-14T00:00:00-05:00</updated><id>https://jaredtumiel.github.io/blog/2021/08/14/programmable-matter</id><content type="html" xml:base="https://jaredtumiel.github.io/blog/2021/08/14/programmable-matter.html">&lt;p&gt;David Deutsch, &lt;a href=&quot;https://conversationswithtyler.com/episodes/david-deutsch/&quot;&gt;described aptly by Tyler Cowen&lt;/a&gt; as a kind of “philosopher of maximal freedom” famously points out that any state of the universe that is not explicitly prohibited by the laws of physics, is therefore realisable by some set of physical transformations using those laws. The gap between our current state and that unrealised-but-possible future state is a gap in our &lt;em&gt;knowledge&lt;/em&gt;. In this way, Deutsch elevates ‘knowledge’ to a kind of fundamental force in the universe. Our ability to create useful explanations about the physical world increases our knowledge, and by increasing our knowledge we are able to access more possible states. In a &lt;em&gt;Deutschian&lt;/em&gt; sense, the only reason humans can’t currently live for hundreds of years isn’t because it’s prohibited by the laws of thermodynamics (it’s not!), it’s because we lack the requisite knowledge to apply the correct physical transformations to matter that would prolong our lifespans.&lt;/p&gt;
 
 &lt;p&gt;Deutsch’s distinction between discovering and describing the laws of the universe (the job of theoretical physicists as currently understood), and enumerating the possible realities contained within (or allowed by) those laws, hints at a broader conception of physics: the physics of the possible. By simply asking what constraints there are on a system, or in what ways we can &lt;em&gt;not&lt;/em&gt; violate those constraints, we can uncover the true richness contained therein. This post is an exploration of the constraints of physical matter, and in what ways it is ‘programmable’.&lt;/p&gt;
 
@@ -148,7 +148,8 @@ The matrix which achieves this is&lt;/p&gt;
 
 &lt;h4 id=&quot;programming-by-training-cell-networks&quot;&gt;Programming by training cell networks&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/images/matter/organoids.png&quot; alt=&quot;tweet embed&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/images/matter/max.png&quot; alt=&quot;tweet embed&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center; font-size:x-small&quot;&gt;Max Hodak on &lt;a href=&quot;https://twitter.com/max_hodak/status/1413650742716493827?s=20&quot;&gt;&lt;em&gt;Twitter&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I like the thrust of this tweet - given all of the properties of living systems we’ve already mentioned, this seems like a useful experiment to perform. As far as I can tell, if we can think of a clever way to encode ImageNet and pass it to a network of cells, and if we could read the output, then training can proceed by either something akin to the method in &lt;a href=&quot;https://arxiv.org/abs/2104.13386&quot;&gt;&lt;em&gt;Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems&lt;/em&gt;&lt;/a&gt;. Or, if we take the &lt;em&gt;predictive processing&lt;/em&gt; perspective, maybe we can use what we know about the neurobiology of prediction-error signalling to train our ‘network’. Programming a piece of ‘predictive-matter’ like this could be really useful to neuroscientists trying to study these networks, and maybe to AI-researchers looking to learn something from biological intelligence.&lt;/p&gt;
 
@@ -251,7 +252,9 @@ The matrix which achieves this is&lt;/p&gt;
 
 &lt;p&gt;John von Neumann pre-empted the discovery of DNA by asking himself how self-replication was possible and consistent with the laws of physics. He realised (I’m paraphrasing David Deutsch from &lt;a href=&quot;https://www.edge.org/conversation/david_deutsch-constructor-theory&quot;&gt;here&lt;/a&gt;) that you needed to specify instructions for assembling the system - that you couldn’t simply “copy-paste” the whole thing. From there, and knowing what we do about the universality of another machine that follows instructions on a tape (the Turing Machine), it’s natural to ask whether a &lt;a href=&quot;https://www.wikiwand.com/en/Von_Neumann_universal_constructor&quot;&gt;universal constructor&lt;/a&gt; exists. Is there an arrangement of atoms such that that arrangement can reproduce all other arrangements?&lt;/p&gt;
 
-&lt;p&gt;Surely the ability to rearrange matter at will would constitute ‘programmable’ matter in the sense we’ve been investigating here? Of course, I should say something about the ‘programmable’ part then.&lt;/p&gt;
+&lt;p&gt;Surely the ability to rearrange matter at will would constitute ‘programmable’ matter in the sense we’ve been investigating here?&lt;/p&gt;
+
+&lt;p&gt;Of course, now I should say something about the ‘programmable’ part.&lt;/p&gt;
 
 &lt;h3 id=&quot;programming-with-atoms&quot;&gt;Programming with atoms&lt;/h3&gt;
 
@@ -260,7 +263,7 @@ The matrix which achieves this is&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/blog/images/matter/babbage.jpg&quot; alt=&quot;Babbage analytical engine&quot; /&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align:center; font-size:x-small&quot;&gt;Visualise Babbage &amp;amp; Lovelace's mechanical computer, just a few billion times smaller&lt;/p&gt;
 
-&lt;p&gt;So if we could build and control systems in the &lt;em&gt;machine phase&lt;/em&gt; we’d have a crazy amount of power over physical matter - able to separate, store, and control vast swathes of the material world!&lt;/p&gt;
+&lt;p&gt;So if we could build and control systems in the &lt;em&gt;machine phase&lt;/em&gt; we’d have a crazy amount of power over physical matter. We’d be able to separate, store, and control vast swathes of the material world! What &lt;a href=&quot;https://www.wikiwand.com/en/Gray_goo&quot;&gt;could go wrong!&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;exotic-phases-and-weird-physics&quot;&gt;Exotic phases and weird physics&lt;/h2&gt;
 
@@ -302,9 +305,17 @@ The matrix which achieves this is&lt;/p&gt;
   &lt;p&gt;“Na dude, I only programme in the topological inequivalences of braided anyons”&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;We’re all familiar with the garden-variety of weird quantum phenomena - the double slit experiment, Schrodinger’s cat, etc. But beyond the garden wall there’s a veritable zoo of bizarre things. Wtf is a &lt;a href=&quot;https://www.wikiwand.com/en/Fractional_quantum_Hall_effect&quot;&gt;fraction of an elementary charge?&lt;/a&gt; What part of ‘elementary’ was I misunderstanding? What do you mean those made up mathematical ‘potential’ fields have &lt;a href=&quot;https://www.wikiwand.com/en/Aharonov–Bohm_effect&quot;&gt;physical consequences&lt;/a&gt; that are more fundamental than the good old electric and magnetic fields?&lt;/p&gt;
+
+&lt;p&gt;So here’s another thing: we can alter the properties of matter by creating &lt;a href=&quot;https://www.quantamagazine.org/how-anyon-particles-emerge-from-quantum-knots-20170228/&quot;&gt;knots&lt;/a&gt; in the hypothetical world-lines that they trace out in spacetime. What? I mean seriously, the idea is that in some dimensions, the topology (the properties of a shape that are preserved if we’re only allowed to smoothly deform it, without tearing or cutting) of some paths through spacetime has a measurable effect on the matter tracing out that trajectory.&lt;/p&gt;
+
+&lt;p&gt;I don’t know what things we might programme in this weird topological language. In a pleasingly-Ouroboros-like way, the most frequently given example for what topological matter enables is &lt;a href=&quot;https://arxiv.org/abs/quant-ph/9707021&quot;&gt;fault-tolerant quantum computers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I say, let’s programme matter with topology, and then use that topologically-protected quantum state to programme everything else!&lt;/p&gt;
+
 &lt;h3 id=&quot;so-is-everything-just-information&quot;&gt;So is everything just information?&lt;/h3&gt;
 
-&lt;p&gt;To round this off, Scott Aaronson has a great post on the extent to which &lt;a href=&quot;https://www.scottaaronson.com/blog/?p=3327&quot;&gt;information is physical&lt;/a&gt;. I recommend it in its entirety if you’ve enjoyed my minor foray into the topic.&lt;/p&gt;
+&lt;p&gt;To round this off, Scott Aaronson has a great post on the extent to which &lt;a href=&quot;https://www.scottaaronson.com/blog/?p=3327&quot;&gt;information is physical&lt;/a&gt;. I recommend it in its entirety if you’ve enjoyed my minor foray into the topic. Here’s Aaronson on the fundamental importance of information in thinking about the double-slit experiment:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;We get closer to the meat of the slogan [“Information Is Physical”] if we consider some actual  physical phenomena, say in quantum mechanics.  The double-slit experiment will do fine.&lt;/p&gt;
@@ -312,13 +323,15 @@ The matrix which achieves this is&lt;/p&gt;
   &lt;p&gt;Recall: you shoot photons, one by one, at a screen with two slits, then examine the probability distribution over where the photons end up on a second screen. You ask: does that distribution contain alternating “light” and “dark” regions, the signature of interference between positive and negative amplitudes? And the answer, predicted by the math and confirmed by experiment, is: &lt;em&gt;yes, but only if the information about which slit the photon went through failed to get recorded anywhere else in the universe, other than the photon location itself.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;And so, even if we reject ‘It-From-Bit’, we must still account for ‘information’ - the very stuff manipulated by any program - in our most basic physical theories.&lt;/p&gt;
+
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;I hope you enjoyed this tour of the ways matter can be programmed, as well as the many digressions to speak about computing in general. For more in this vein, I highly recommend Michael Nielsen’s ongoing exploration of &lt;a href=&quot;https://futureofmatter.com/maps_of_matter.html&quot;&gt;the future of matter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Comments, twitter DMs, and emails with follow-up, links to more interesting stuff, and questions are always appreciated!&lt;/p&gt;
 
-&lt;p&gt;Also, I am working on part 2 of the &lt;a href=&quot;https://jaredtumiel.github.io/blog/2020/08/08/free-energy1.html&quot;&gt;FEP series&lt;/a&gt;, I promise!&lt;/p&gt;
+&lt;p&gt;Also, I am working on part 2 of the &lt;a href=&quot;https://jaredtumiel.github.io/blog/2020/08/08/free-energy1.html&quot;&gt;FEP series&lt;/a&gt;, &lt;strong&gt;I promise!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
