@@ -33,7 +33,7 @@ As it happens, a lot of things are Turing-complete (able to simulate any other T
 ## The Quantum Obvious
 
 ![Google's Quantum Computer]({{ site.baseurl }}/images/matter/quantum.png)
-<small>*side note: I propose quantum computers are our most gorgeous-looking technology and we should celebrate this more*<small>
+<p style="text-align:center; font-size:x-small">side note: I propose quantum computers are our most gorgeous-looking technology and we should celebrate this more</p>
 
 Quantum computers are also going to have to run in our physical universe! And so far, besides a few algorithms, the thing they might be most useful for is simulating the behaviour of quantum systems. Actually, if I'm careful not to just gloss over this, this feels really surprising. Try to seriously internalise for the moment that reality really is quantum mechanical. Not just abstractly know it's true in textbooks, but like everything you see is some excitation of a quantum field. It feels pretty weird to think that you can take some of those excitations, couple them together, make some of the excitations (e.g. a photon or an electron) behave as 'qubits' which have a state which can be used to store computational information (e.g. the 'Up' or 'Down' spin states of the electron), and then you can use that computational state to build a simulation... of excitations... in a quantum field ... like the spin of an electron... or the phase of a photon...
 
@@ -44,7 +44,7 @@ Aaaanyway...
 It's important to acknowledge that **quantum computers aren't more general than classic computers**, but for certain things, they're remarkably more efficient! So everything you can do with a quantum computer, you can simulate in a classical computer, given enough time/memory (what did you think the 'Universal' in 'Universal Turing Machine' was for?).
 
 ![image of P vs NP vs BQP]({{ site.baseurl }}/images/matter/quantum_c.svg)
-<small>*this lovely diagram is from this [Simon's Foundation report](https://www.simonsfoundation.org/report2017/stories/scott-aaronson-quantum-and-classical-uncertainty/)*<small>
+<p style="text-align:center; font-size:x-small">this lovely diagram is from <a href "https://www.simonsfoundation.org/report2017/stories/scott-aaronson-quantum-and-classical-uncertainty/" <em>this</em></a> Simon's Foundation report</p>
 
 Digging into the strange hall of mirrors situation of reality simulating reality that is quantum computing seems a worthwhile diversion right now if we are to dig into the question about programmable matter. So let's do a whirlwind tour of quantum computing so that we can point out some intriguing points:
 
@@ -165,8 +165,7 @@ Indeed, a tantalising possibility, realisable by ['programming' biological circu
 #### Programming with bioelectricity
 
 ![genetic, morphological, and bioelectric coordination]({{ site.baseurl }}/images/matter/cell_dev.png)
-
-<p style="text-align:center; font-size:x-small">*This gorgeous [graphic]<a href="https://thenode.biologists.com/wp-content/uploads/2019/03/3-layers-e1551717789729.png"><em>graphic</em></a> by Ben Oldroyd for the Levin Lab*</p>
+<p style="text-align:center; font-size:x-small">This gorgeous <a href="https://thenode.biologists.com/wp-content/uploads/2019/03/3-layers-e1551717789729.png"><em>graphic</em></a> by Ben Oldroyd for the Levin Lab</p>
 
 Cellular decision making is clearly reliant on more than just the cell's genome (after all, every cell in your body has the same genome). Even if you account for different patterns of gene-expression between tissue types, we're still left with unexplained fidelity in cellular morphological coordination. Enter biolelectricity! Turns out that simple physical variables like the charge-polarisation of cells can control wide-aspects of their morphology, and coordinate cells to adaptively achieve [complex macro-scale objectives](https://pubmed.ncbi.nlm.nih.gov/26571046/) (like building an eye, or coordinating to make sure the right nerve cells make their way to that eye so that it's usable). Oh, and there is[ increasingly awesome work by Michael Levin and colleagues](https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202000140) that shows that if we intelligently intervene in these bioelectric circuits, we can alter key aspects of cell differentiation and proliferation.
 
@@ -180,9 +179,9 @@ I like the thrust of this tweet - given all of the properties of living systems 
 
 We can also think of what we can achieve if we leverage the three distinct properties of living matter (homeostasis, autopoiesis, self-organisation) in our programmed cells. What complex morphologies are we able to create, and what functions can we realise? One frustrating possibility might be that evolved circuits are too complex for humans to intelligently engineer (and maybe this is a [cryptographic defence mechanism](https://arxiv.org/abs/1505.01744)). So does that mean the project of synthetic biology is doomed? I don't think so.
 
-Back in the *Ye Olde Days* of *Good Old Fashioned AI*, we thought that hand engineering features and encoding huge knowledge-bases was the key to intelligence. Nowadays, we've seen the power of just black-boxing the system and using a powerful optimiser to learn whatever complex function we desire. No one knows how to write explicit rules to differentiate Chihuahua's from muffins, but if we avoid explicit rules and just train some parameters in a neural net, we do just fine!
+Back in the *Ye Olde Days* of *Good Old Fashioned AI*, we thought that hand engineering features and encoding huge knowledge-bases was the key to intelligence. Nowadays, we've seen the power of just black-boxing the system and using a powerful optimiser to learn whatever complex function we desire. No one knows how to write explicit rules to differentiate Chihuahuas from muffins, but if we avoid explicit rules and just train some parameters in a neural net, we do just fine!
 
-![Chihuahua or muffin?]({{ site.baseurl }}/images/matter/muffin.jpe	g)
+![Chihuahua or muffin?]({{ site.baseurl }}/images/matter/muffin.jpeg)
 
 Andrej Karpathy extended this idea to coin the term ['Software 2.0'](https://karpathy.medium.com/software-2-0-a64152b37c35), wherein he proposed a shift in how we create complex computer programs. Instead of explicitly programming each line of our app, we would specify an underlying architecture (a neural net), and provide it with some data which shapes its behaviour towards some desired functionality. I think we've seen early pieces of 'software 2.0' in some of the [GPT-3](https://twitter.com/sharifshameem/status/1283322990625607681?lang=en) and [OpenAI Codex](https://openai.com/blog/openai-codex/) demos.
 
@@ -231,7 +230,7 @@ So this section is less about programming matter and more about asking why a par
 This is one implication of the ideas in [*Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems*](https://arxiv.org/abs/2104.13386). 
 
 ![Deep Physical neural nets]({{ site.baseurl }}/images/matter/physicalnn.png)
-<small>*From [Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems](https://arxiv.org/abs/2104.13386)*<small>
+<p style="text-align:center; font-size:x-small">From <a href="https://arxiv.org/abs/2104.13386"><em>Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems</em></a></p>
 
 The basic idea is that we can 'encode' some input into a physical system, like a metal sheet, as a set of vibrations. We can also encode the parameters of our neural net as another set of vibrations which can constructively or destructively interfere with our input vibrations. We can then 'read' the output of the 'network' as e.g. the wavepattern of vibrations attained after the two sets of vibrations have intermingled. The network is trained by comparing the output of the real system to that predicted by a physics simulator for the system, and then the 'parameter' vibrations are adjusted accordingly until the desired output of vibrations is created.
 
@@ -271,7 +270,7 @@ Surely the ability to rearrange matter at will would constitute 'programmable' m
 You saw the title of Drexler's book earlier, right? *Nanosystems - Molecular Machinery, Manufacturing, and **Computation***. In it, Drexler sketches plans for building nanomechanical computers (as opposed to the familiar electronic computers we use for most things). Nanomechanical computers don't use changing voltages in semi-conductors to represent zeros and ones, but instead  represent them using the displacement of tiny rods into specific locations.
 
 ![Babbage analytical engine]({{ site.baseurl }}/images/matter/babbage.jpg)
-<small>*Visualise Babbage & Lovelace's mechanical computer, just a few billion times smaller*<small>
+<p style="text-align:center; font-size:x-small">Visualise Babbage & Lovelace's mechanical computer, just a few billion times smaller</p>
 
 So if we could build and control systems in the *machine phase* we'd have a crazy amount of power over physical matter - able to separate, store, and control vast swathes of the material world!
 
