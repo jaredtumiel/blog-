@@ -178,7 +178,7 @@ We can also think of what we can achieve if we leverage the three distinct prope
 
 Back in the *Ye Olde Days* of *Good Old Fashioned AI*, we thought that hand engineering features and encoding huge knowledge-bases was the key to intelligence. Nowadays, we've seen the power of just black-boxing the system and using a powerful optimiser to learn whatever complex function we desire. No one knows how to write explicit rules to differentiate Chihuahua's from muffins, but if we avoid explicit rules and just train some parameters in a neural net, we do just fine!
 
-![Chihuahua or muffin?]({{ site.baseurl }}/images/matter/muffin.jpg)
+![Chihuahua or muffin?]({{ site.baseurl }}/images/matter/muffin.jpe	g)
 
 Andrej Karpathy extended this idea to coin the term ['Software 2.0'](https://karpathy.medium.com/software-2-0-a64152b37c35), wherein he proposed a shift in how we create complex computer programs. Instead of explicitly programming each line of our app, we would specify an underlying architecture (a neural net), and provide it with some data which shapes its behaviour towards some desired functionality. I think we've seen early pieces of 'software 2.0' in some of the [GPT-3](https://twitter.com/sharifshameem/status/1283322990625607681?lang=en) and [OpenAI Codex](https://openai.com/blog/openai-codex/) demos.
 
