@@ -3,7 +3,7 @@ layout: post
 title: In What Sense is Matter 'Programmable'?
 description: Just as every smartphone app was latent in the laws of computation as laid out nearly 100 years ago, what lies latent within the laws of physics, and how might we use this to increase our control over physical matter?
 comments: true
-hide: true
+hide: false
 toc: true
 ---
 
