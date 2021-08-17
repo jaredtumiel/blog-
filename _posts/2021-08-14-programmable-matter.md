@@ -171,7 +171,8 @@ Cellular decision making is clearly reliant on more than just the cell's genome 
 
 #### Programming by training cell networks
 
-![tweet embed]({{ site.baseurl }}/images/matter/organoids.png)
+![tweet embed]({{ site.baseurl }}/images/matter/max.png)
+<p style="text-align:center; font-size:x-small">Max Hodak on <a href="https://twitter.com/max_hodak/status/1413650742716493827?s=20"><em>Twitter</em></a></p>
 
 I like the thrust of this tweet - given all of the properties of living systems we've already mentioned, this seems like a useful experiment to perform. As far as I can tell, if we can think of a clever way to encode ImageNet and pass it to a network of cells, and if we could read the output, then training can proceed by either something akin to the method in [*Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems*](https://arxiv.org/abs/2104.13386). Or, if we take the *predictive processing* perspective, maybe we can use what we know about the neurobiology of prediction-error signalling to train our 'network'. Programming a piece of 'predictive-matter' like this could be really useful to neuroscientists trying to study these networks, and maybe to AI-researchers looking to learn something from biological intelligence.
 
@@ -263,7 +264,9 @@ Actually, since the figures truly are astounding, I'll rattle some off. I'm gett
 
 John von Neumann pre-empted the discovery of DNA by asking himself how self-replication was possible and consistent with the laws of physics. He realised (I'm paraphrasing David Deutsch from [here](https://www.edge.org/conversation/david_deutsch-constructor-theory)) that you needed to specify instructions for assembling the system - that you couldn't simply "copy-paste" the whole thing. From there, and knowing what we do about the universality of another machine that follows instructions on a tape (the Turing Machine), it's natural to ask whether a [universal constructor](https://www.wikiwand.com/en/Von_Neumann_universal_constructor) exists. Is there an arrangement of atoms such that that arrangement can reproduce all other arrangements? 
 
-Surely the ability to rearrange matter at will would constitute 'programmable' matter in the sense we've been investigating here? Of course, I should say something about the 'programmable' part then.
+Surely the ability to rearrange matter at will would constitute 'programmable' matter in the sense we've been investigating here? 
+
+Of course, now I should say something about the 'programmable' part.
 
 ### Programming with atoms
 
@@ -272,7 +275,7 @@ You saw the title of Drexler's book earlier, right? *Nanosystems - Molecular Mac
 ![Babbage analytical engine]({{ site.baseurl }}/images/matter/babbage.jpg)
 <p style="text-align:center; font-size:x-small">Visualise Babbage & Lovelace's mechanical computer, just a few billion times smaller</p>
 
-So if we could build and control systems in the *machine phase* we'd have a crazy amount of power over physical matter - able to separate, store, and control vast swathes of the material world!
+So if we could build and control systems in the *machine phase* we'd have a crazy amount of power over physical matter. We'd be able to separate, store, and control vast swathes of the material world! What [could go wrong!](https://www.wikiwand.com/en/Gray_goo)
 
 ## Exotic phases and weird physics
 
@@ -308,13 +311,23 @@ One of my 2020 Lockdown pasttimes was watching Leonard Susskind's ['Theoretical 
 >
 > "Na dude, I only programme in the topological inequivalences of braided anyons"
 
+We're all familiar with the garden-variety of weird quantum phenomena - the double slit experiment, Schrodinger's cat, etc. But beyond the garden wall there's a veritable zoo of bizarre things. Wtf is a [fraction of an elementary charge?](https://www.wikiwand.com/en/Fractional_quantum_Hall_effect) What part of 'elementary' was I misunderstanding? What do you mean those made up mathematical 'potential' fields have [physical consequences](https://www.wikiwand.com/en/Aharonov–Bohm_effect) that are more fundamental than the good old electric and magnetic fields?
+
+So here's another thing: we can alter the properties of matter by creating [knots](https://www.quantamagazine.org/how-anyon-particles-emerge-from-quantum-knots-20170228/) in the hypothetical world-lines that they trace out in spacetime. What? I mean seriously, the idea is that in some dimensions, the topology (the properties of a shape that are preserved if we're only allowed to smoothly deform it, without tearing or cutting) of some paths through spacetime has a measurable effect on the matter tracing out that trajectory. 
+
+I don't know what things we might programme in this weird topological language. In a pleasingly-Ouroboros-like way, the most frequently given example for what topological matter enables is [fault-tolerant quantum computers](https://arxiv.org/abs/quant-ph/9707021).
+
+I say, let's programme matter with topology, and then use that topologically-protected quantum state to programme everything else! 
+
 ### So is everything just information?
 
-To round this off, Scott Aaronson has a great post on the extent to which [information is physical](https://www.scottaaronson.com/blog/?p=3327). I recommend it in its entirety if you've enjoyed my minor foray into the topic.
+To round this off, Scott Aaronson has a great post on the extent to which [information is physical](https://www.scottaaronson.com/blog/?p=3327). I recommend it in its entirety if you've enjoyed my minor foray into the topic. Here's Aaronson on the fundamental importance of information in thinking about the double-slit experiment:
 
 >We get closer to the meat of the slogan ["Information Is Physical"] if we consider some actual  physical phenomena, say in quantum mechanics.  The double-slit experiment will do fine.
 >
 >Recall: you shoot photons, one by one, at a screen with two slits, then examine the probability distribution over where the photons end up on a second screen. You ask: does that distribution contain alternating “light” and “dark” regions, the signature of interference between positive and negative amplitudes? And the answer, predicted by the math and confirmed by experiment, is: *yes, but only if the information about which slit the photon went through failed to get recorded anywhere else in the universe, other than the photon location itself.*
+
+And so, even if we reject 'It-From-Bit', we must still account for 'information' - the very stuff manipulated by any program - in our most basic physical theories. 
 
 ## Conclusion
 
@@ -322,7 +335,7 @@ I hope you enjoyed this tour of the ways matter can be programmed, as well as th
 
 Comments, twitter DMs, and emails with follow-up, links to more interesting stuff, and questions are always appreciated!
 
-Also, I am working on part 2 of the [FEP series](https://jaredtumiel.github.io/blog/2020/08/08/free-energy1.html), I promise!
+Also, I am working on part 2 of the [FEP series](https://jaredtumiel.github.io/blog/2020/08/08/free-energy1.html), **I promise!**
 
 [^1]: More technically, an approximation, but it doesn't really matter
 [^2]: I don't have space or scope here to explain why we're using vectors, or what all the symbols are. I know this is kind of unfair. But my argument in the rest of this post doesn't depend on the maths specifically, it's the general idea of representing pieces of math in physical systems that we care about. Also, another plug here for quantum.country - if you want to understand all the notation, they explain everything far better than I can!
