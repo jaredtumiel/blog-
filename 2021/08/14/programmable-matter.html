@@ -121,7 +121,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      37 min read
+      38 min read
     
 </span></p>
 
@@ -144,6 +144,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#what-aspects-of-biology-are-programmable">What aspects of biology are ‘programmable’?</a>
 <ul>
 <li class="toc-entry toc-h4"><a href="#programming-by-dna-editing">Programming by DNA editing</a></li>
+<li class="toc-entry toc-h4"><a href="#programming-by-epigenome-editing">Programming by epigenome editing</a></li>
 <li class="toc-entry toc-h4"><a href="#programming-by-cell-signalling">Programming by cell signalling</a></li>
 <li class="toc-entry toc-h4"><a href="#programming-with-bioelectricity">Programming with bioelectricity</a></li>
 <li class="toc-entry toc-h4"><a href="#programming-by-training-cell-networks">Programming by training cell networks</a></li>
@@ -200,7 +201,7 @@ window.onload = wrap_img;
 <h2 id="the-obvious">
 <a class="anchor" href="#the-obvious" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Obvious</h2>
 
-<p>![a Universal Turing Machine]</p>
+<p><img src="/blog/images/matter/turing.gif" alt="a Universal Turing Machine"></p>
 
 <p>Trivially, every Universal Turing Machine must be instantiated in the matter of our physical universe if it is to do any computing. The original Turing Machine was proposed as a kind of Platonic mathematical entity, consisting of an infinitely long tape with symbols inscribed at interval which instructed the machine on what action to take next. Unfortunately, big as the universe may be, infinitely long tapes aren’t practical. Thankfully, we are lucky enough to live in a universe where we can make perfectly good approximations to the UTM - no tape required!</p>
 
@@ -211,9 +212,8 @@ window.onload = wrap_img;
 <h2 id="the-quantum-obvious">
 <a class="anchor" href="#the-quantum-obvious" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Quantum Obvious</h2>
 
-<p>![Google’s Quantum Computer]</p>
-
-<p><em>side note: I propose quantum computers are our current best looking piece of deep tech symbolism. I mean just look at the things!</em></p>
+<p><img src="/blog/images/matter/quantum.png" alt="Google's Quantum Computer">
+<em>side note: I propose quantum computers are our most gorgeous-looking technology and we should celebrate this more</em></p>
 
 <p>Quantum computers are also going to have to run in our physical universe! And so far, besides a few algorithms, the thing they might be most useful for is simulating the behaviour of quantum systems. Actually, if I’m careful not to just gloss over this, this feels really surprising. Try to seriously internalise for the moment that reality really is quantum mechanical. Not just abstractly know it’s true in textbooks, but like everything you see is some excitation of a quantum field. It feels pretty weird to think that you can take some of those excitations, couple them together, make some of the excitations (e.g. a photon or an electron) behave as ‘qubits’ which have a state which can be used to store computational information (e.g. the ‘Up’ or ‘Down’ spin states of the electron), and then you can use that computational state to build a simulation… of excitations… in a quantum field … like the spin of an electron… or the phase of a photon…</p>
 
@@ -224,7 +224,8 @@ window.onload = wrap_img;
 
 <p>It’s important to acknowledge that <strong>quantum computers aren’t more general than classic computers</strong>, but for certain things, they’re remarkably more efficient! So everything you can do with a quantum computer, you can simulate in a classical computer, given enough time/memory (what did you think the ‘Universal’ in ‘Universal Turing Machine’ was for?).</p>
 
-<p>![image of P vs NP vs QBIEOoeuiou]</p>
+<p><img src="/blog/images/matter/quantum_c.svg" alt="image of P vs NP vs BQP">
+<em>this lovely diagram is from this <a href="https://www.simonsfoundation.org/report2017/stories/scott-aaronson-quantum-and-classical-uncertainty/">Simon’s Foundation report</a></em></p>
 
 <p>Digging into the strange hall of mirrors situation of reality simulating reality that is quantum computing seems a worthwhile diversion right now if we are to dig into the question about programmable matter. So let’s do a whirlwind tour of quantum computing so that we can point out some intriguing points:</p>
 
@@ -240,7 +241,7 @@ and the spin-down state as
 
 <p>where $\alpha$​​ and $\beta$​​​​ are just coefficients telling us ‘how much’ of the ‘up’ or ‘down’ states we want in our total state. Now earlier we said we built up our remarkably general Universal Turing Machine with just combinations of ‘logic gates’ - things like the ‘AND’ gate, which returns ‘1’ if both its inputs are ‘1’, and ‘0’ in all other cases</p>
 
-<p>![an AND gate]</p>
+<p><img src="/blog/images/matter/logic.jpg" alt="an AND gate"></p>
 
 <p>Turns out we can represent these logic gates as matrices. Let’s look at the ‘NOT’ gate - the ‘NOT’ operation just flips a zero to a one and vice versa. So we want NOT(‘spin-up) to equal ‘spin down’. Let’s call the operator doing this $X$​​​. We want $X$​​​ acting on
 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo fence="true">(</mo><mtable rowspacing="0.15999999999999992em" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>0</mn></mstyle></mtd></mtr></mtable><mo fence="true">)</mo></mrow><annotation encoding="application/x-tex">\begin{pmatrix} 1 \\ 0\end{pmatrix}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.40003em;vertical-align:-0.95003em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.45em;"><span style="top:-3.61em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-2.4099999999999997em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9500000000000004em;"><span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span></span></span></span>
@@ -301,7 +302,7 @@ The matrix which achieves this is</p>
 <p>1) We can imagine the DNA of the cell as providing the instruction set for the cell, and by editing the DNA, we ‘program’ novel functions and outputs into the cell
 2) We can send cellular signals by binding molecules to membrane receptors, the intracellular machinery of the cell can process this signal, and various outputs - in the form of up- or down-regulation, signal propagation, synthetic activity, etc. - can occur</p>
 
-<p>It’s worth lingering on the various ways we can ‘program’ biological matter, then, because each may be useful, and they’re just really cool.</p>
+<p>But it’s worth lingering on the various ways we can ‘program’ biological matter, then, because each may be useful, and they’re just really cool.</p>
 
 <h4 id="programming-by-dna-editing">
 <a class="anchor" href="#programming-by-dna-editing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Programming by DNA editing</h4>
@@ -309,6 +310,11 @@ The matrix which achieves this is</p>
 <p>Firstly, DNA and genetics seems more like a lookup table than a programming language. You specify a string ‘GTG/CAC/CTG/ACT/CCT/GAG’ and that gives you the sequence of amino acids ‘Val/His/Leu/Thr/Pro/Glu’, and that’s the first 6 amino acids in the beta chain of human haemoglobin. There’s also lots of secondary features in this ‘language’ like <a href="https://www.wikiwand.com/en/Reading_frame">reading frames</a> and <a href="https://www.wikiwand.com/en/Post-translational_modification">post-translational</a> and <a href="https://www.wikiwand.com/en/Post-transcriptional_modification">post-transcriptional</a> processing, and which genes are available for translation at a given time, and how translation is promoted or inhibited. But the basic idea of ‘inject’ new code and use the molecular machines to assemble it isn’t far off.</p>
 
 <p>Tools like CRISPR give us this kind of ability to edit the genome, but more excitingly, open the path to novel protein design (tools like <a href="https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery">AlphaFold</a> will be crucial here, but also see <a href="https://www.biorxiv.org/content/10.1101/622803v3"><em>Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences</em></a> and <a href="https://www.biorxiv.org/content/10.1101/2021.07.18.452833v1"><em>Deep neural language modeling enables functional protein generation across families</em></a> for some incredible ideas that aren’t as famous as AlphaFold!)</p>
+
+<h4 id="programming-by-epigenome-editing">
+<a class="anchor" href="#programming-by-epigenome-editing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Programming by epigenome editing</h4>
+
+<p>One problem with editing the genome directly is that cells generally don’t like it when you cause breakages in their DNA. So instead of trying to remove a problematic sequence, why not just suppress it so that it’s never expressed? As it happens, cells already possess machinery that can inactivate genes like this - and these epigenetic modifications provide a nice platform for programming the cell. Enter a recent <a href="https://www.cell.com/cell/fulltext/S0092-8674(21)00353-6?">CRISPR modification called ‘CRISPRoff’</a> (yes, there’s also a CRISPRon) which uses the sequence-targeting ability of CRISPR to direct molecular machinery that can methylate (and thereby inactivate) almost any part of the genome. This is a big deal because the difference between your hepatic cells and your neurons are largely differences in which parts of their genomes are expressed at any given time, and so the ability to selectively turn expression on or off is a potential <a href="https://jaredtumiel.github.io/blog/2021/08/06/techno-optimism1.html">Hamming-Enabler</a> for fine-grained control of complex multicellular-morphology (see later in this post).</p>
 
 <h4 id="programming-by-cell-signalling">
 <a class="anchor" href="#programming-by-cell-signalling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Programming by cell signalling</h4>
@@ -324,14 +330,15 @@ The matrix which achieves this is</p>
 <h4 id="programming-with-bioelectricity">
 <a class="anchor" href="#programming-with-bioelectricity" aria-hidden="true"><span class="octicon octicon-link"></span></a>Programming with bioelectricity</h4>
 
-<p><img src="/blog/images/matter/cell_dev.png" alt="genetic, morphological, and bioelectric coordination"></p>
+<p><img src="/blog/images/matter/cell_dev.png" alt="genetic, morphological, and bioelectric coordination">
+<em>This gorgeous <a href="https://thenode.biologists.com/wp-content/uploads/2019/03/3-layers-e1551717789729.png">graphic</a> by Ben Oldroyd for the Levin Lab</em></p>
 
 <p>Cellular decision making is clearly reliant on more than just the cell’s genome (after all, every cell in your body has the same genome). Even if you account for different patterns of gene-expression between tissue types, we’re still left with unexplained fidelity in cellular morphological coordination. Enter biolelectricity! Turns out that simple physical variables like the charge-polarisation of cells can control wide-aspects of their morphology, and coordinate cells to adaptively achieve <a href="https://pubmed.ncbi.nlm.nih.gov/26571046/">complex macro-scale objectives</a> (like building an eye, or coordinating to make sure the right nerve cells make their way to that eye so that it’s usable). Oh, and there is<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202000140"> increasingly awesome work by Michael Levin and colleagues</a> that shows that if we intelligently intervene in these bioelectric circuits, we can alter key aspects of cell differentiation and proliferation.</p>
 
 <h4 id="programming-by-training-cell-networks">
 <a class="anchor" href="#programming-by-training-cell-networks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Programming by training cell networks</h4>
 
-<p>![tweet embed]</p>
+<p><img src="/blog/images/matter/organoids.png" alt="tweet embed"></p>
 
 <p>I like the thrust of this tweet - given all of the properties of living systems we’ve already mentioned, this seems like a useful experiment to perform. As far as I can tell, if we can think of a clever way to encode ImageNet and pass it to a network of cells, and if we could read the output, then training can proceed by either something akin to the method in <a href="https://arxiv.org/abs/2104.13386"><em>Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems</em></a>. Or, if we take the <em>predictive processing</em> perspective, maybe we can use what we know about the neurobiology of prediction-error signalling to train our ‘network’. Programming a piece of ‘predictive-matter’ like this could be really useful to neuroscientists trying to study these networks, and maybe to AI-researchers looking to learn something from biological intelligence.</p>
 
@@ -342,7 +349,7 @@ The matrix which achieves this is</p>
 
 <p>Back in the <em>Ye Olde Days</em> of <em>Good Old Fashioned AI</em>, we thought that hand engineering features and encoding huge knowledge-bases was the key to intelligence. Nowadays, we’ve seen the power of just black-boxing the system and using a powerful optimiser to learn whatever complex function we desire. No one knows how to write explicit rules to differentiate Chihuahua’s from muffins, but if we avoid explicit rules and just train some parameters in a neural net, we do just fine!</p>
 
-<p>![Chihuahua or muffin?]</p>
+<p><img src="/blog/images/matter/muffin.jpg" alt="Chihuahua or muffin?"></p>
 
 <p>Andrej Karpathy extended this idea to coin the term <a href="https://karpathy.medium.com/software-2-0-a64152b37c35">‘Software 2.0’</a>, wherein he proposed a shift in how we create complex computer programs. Instead of explicitly programming each line of our app, we would specify an underlying architecture (a neural net), and provide it with some data which shapes its behaviour towards some desired functionality. I think we’ve seen early pieces of ‘software 2.0’ in some of the <a href="https://twitter.com/sharifshameem/status/1283322990625607681?lang=en">GPT-3</a> and <a href="https://openai.com/blog/openai-codex/">OpenAI Codex</a> demos.</p>
 
@@ -400,7 +407,8 @@ The matrix which achieves this is</p>
 
 <p>This is one implication of the ideas in <a href="https://arxiv.org/abs/2104.13386"><em>Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems</em></a>.</p>
 
-<p>![Deep Physical neural nets]</p>
+<p><img src="/blog/images/matter/physicalnn.png" alt="Deep Physical neural nets">
+<em>From <a href="https://arxiv.org/abs/2104.13386">Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems</a></em></p>
 
 <p>The basic idea is that we can ‘encode’ some input into a physical system, like a metal sheet, as a set of vibrations. We can also encode the parameters of our neural net as another set of vibrations which can constructively or destructively interfere with our input vibrations. We can then ‘read’ the output of the ‘network’ as e.g. the wavepattern of vibrations attained after the two sets of vibrations have intermingled. The network is trained by comparing the output of the real system to that predicted by a physics simulator for the system, and then the ‘parameter’ vibrations are adjusted accordingly until the desired output of vibrations is created.</p>
 
@@ -408,6 +416,8 @@ The matrix which achieves this is</p>
 
 <h2 id="drexlerian-nanotech-and-von-neumanns-universal-constructor">
 <a class="anchor" href="#drexlerian-nanotech-and-von-neumanns-universal-constructor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Drexlerian Nanotech and Von Neumann’s Universal Constructor</h2>
+
+<p><img src="/blog/images/matter/drexler.gif" alt="Drexlerian Planetary Gear"></p>
 
 <p>We had our first glance at programmable molecular machines in the ‘biology’ section of this post. And as the saying goes “anything worth doing with with Van Der Waal’s forces in organic chemistry is worth recapitulating in a diamondoid substance with covalent bonds”. Well, I’m not sure if that’s how it goes, but I could imagine <a href="https://www.amazon.com/Nanofuture-Nanotechnology-J-Storrs-Hall/dp/1591022878">J Storrs Hall’s</a> birthday cards say something like that.</p>
 
@@ -448,7 +458,7 @@ The matrix which achieves this is</p>
 
 <p>You saw the title of Drexler’s book earlier, right? <em>Nanosystems - Molecular Machinery, Manufacturing, and <strong>Computation</strong></em>. In it, Drexler sketches plans for building nanomechanical computers (as opposed to the familiar electronic computers we use for most things). Nanomechanical computers don’t use changing voltages in semi-conductors to represent zeros and ones, but instead  represent them using the displacement of tiny rods into specific locations.</p>
 
-<p>![Babbage analytical engine]
+<p><img src="/blog/images/matter/babbage.jpg" alt="Babbage analytical engine">
 <em>Visualise Babbage &amp; Lovelace’s mechanical computer, just a few billion times smaller</em></p>
 
 <p>So if we could build and control systems in the <em>machine phase</em> we’d have a crazy amount of power over physical matter - able to separate, store, and control vast swathes of the material world!</p>
