@@ -44,7 +44,7 @@ Aaaanyway...
 It's important to acknowledge that **quantum computers aren't more general than classic computers**, but for certain things, they're remarkably more efficient! So everything you can do with a quantum computer, you can simulate in a classical computer, given enough time/memory (what did you think the 'Universal' in 'Universal Turing Machine' was for?).
 
 ![image of P vs NP vs BQP]({{ site.baseurl }}/images/matter/quantum_c.svg)
-<p style="text-align:center; font-size:x-small">this lovely diagram is from <a href="https://www.simonsfoundation.org/report2017/stories/scott-aaronson-quantum-and-classical-uncertainty/" <em>this</em></a> Simon's Foundation report</p>
+<p style="text-align:center; font-size:x-small">this lovely diagram is from <a href="https://www.simonsfoundation.org/report2017/stories/scott-aaronson-quantum-and-classical-uncertainty/"><em>this</em></a> Simon's Foundation report</p>
 
 Digging into the strange hall of mirrors situation of reality simulating reality that is quantum computing seems a worthwhile diversion right now if we are to dig into the question about programmable matter. So let's do a whirlwind tour of quantum computing so that we can point out some intriguing points:
 
