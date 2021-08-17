@@ -162,7 +162,7 @@ Indeed, a tantalising possibility, realisable by ['programming' biological circu
 #### Programming with bioelectricity
 
 ![genetic, morphological, and bioelectric coordination]({{ site.baseurl }}/images/matter/cell_dev.png)
-*This gorgeous [graphic](https://thenode.biologists.com/wp-content/uploads/2019/03/3-layers-e1551717789729.png) by Ben Oldroyd for the Levin Lab*
+<small>*This gorgeous [graphic](https://thenode.biologists.com/wp-content/uploads/2019/03/3-layers-e1551717789729.png) by Ben Oldroyd for the Levin Lab*<small>
 
 Cellular decision making is clearly reliant on more than just the cell's genome (after all, every cell in your body has the same genome). Even if you account for different patterns of gene-expression between tissue types, we're still left with unexplained fidelity in cellular morphological coordination. Enter biolelectricity! Turns out that simple physical variables like the charge-polarisation of cells can control wide-aspects of their morphology, and coordinate cells to adaptively achieve [complex macro-scale objectives](https://pubmed.ncbi.nlm.nih.gov/26571046/) (like building an eye, or coordinating to make sure the right nerve cells make their way to that eye so that it's usable). Oh, and there is[ increasingly awesome work by Michael Levin and colleagues](https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202000140) that shows that if we intelligently intervene in these bioelectric circuits, we can alter key aspects of cell differentiation and proliferation.
 
@@ -297,13 +297,7 @@ There's a further wrinkle involving Bekenstein here. He noted that if black hole
 
 #### Qubits and dammit no-one's name starts with a 'Q'
 
-
-
-To round this off, Scott Aaronson has a great post on the extent to which [information is physical](https://www.scottaaronson.com/blog/?p=3327). I recommend it in its entirety if you've enjoyed my minor foray into the topic.
-
->We get closer to the meat of the slogan ["Information Is Physical"] if we consider some actual  physical phenomena, say in quantum mechanics.  The double-slit experiment will do fine.
->
->Recall: you shoot photons, one by one, at a screen with two slits, then examine the probability distribution over where the photons end up on a second screen. You ask: does that distribution contain alternating “light” and “dark” regions, the signature of interference between positive and negative amplitudes? And the answer, predicted by the math and confirmed by experiment, is: *yes, but only if the information about which slit the photon went through failed to get recorded anywhere else in the universe, other than the photon location itself.*
+One of my 2020 Lockdown pasttimes was watching Leonard Susskind's ['Theoretical Minimum'](http://theoreticalminimum.com/courses) lecture series. At one point, Susskind is speaking about the logic of quantum mechanics, and the ways in which it is different from classical logic. [He then makes](https://youtu.be/a6ANMKRBjA8?t=5855) a throwaway comment about a deep connection between [the number of parameters in the qubit state space and the three dimensions of ordinary space](https://arxiv.org/abs/1206.0630). Not exactly 'programming' matter, but aesthetically I appreciate that the fundamental physics of two-state quantum systems just *might* link up in unexpected ways with the 3D world of everyday experience.
 
 ### Topological matter
 
@@ -311,7 +305,13 @@ To round this off, Scott Aaronson has a great post on the extent to which [infor
 >
 > "Na dude, I only programme in the topological inequivalences of braided anyons"
 
+### So is everything just information?
 
+To round this off, Scott Aaronson has a great post on the extent to which [information is physical](https://www.scottaaronson.com/blog/?p=3327). I recommend it in its entirety if you've enjoyed my minor foray into the topic.
+
+>We get closer to the meat of the slogan ["Information Is Physical"] if we consider some actual  physical phenomena, say in quantum mechanics.  The double-slit experiment will do fine.
+>
+>Recall: you shoot photons, one by one, at a screen with two slits, then examine the probability distribution over where the photons end up on a second screen. You ask: does that distribution contain alternating “light” and “dark” regions, the signature of interference between positive and negative amplitudes? And the answer, predicted by the math and confirmed by experiment, is: *yes, but only if the information about which slit the photon went through failed to get recorded anywhere else in the universe, other than the photon location itself.*
 
 ## Conclusion
 
