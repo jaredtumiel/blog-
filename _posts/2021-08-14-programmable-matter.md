@@ -33,7 +33,7 @@ As it happens, a lot of things are Turing-complete (able to simulate any other T
 ## The Quantum Obvious
 
 ![Google's Quantum Computer]({{ site.baseurl }}/images/matter/quantum.png)
-*side note: I propose quantum computers are our most gorgeous-looking technology and we should celebrate this more*
+<small>*side note: I propose quantum computers are our most gorgeous-looking technology and we should celebrate this more*<small>
 
 Quantum computers are also going to have to run in our physical universe! And so far, besides a few algorithms, the thing they might be most useful for is simulating the behaviour of quantum systems. Actually, if I'm careful not to just gloss over this, this feels really surprising. Try to seriously internalise for the moment that reality really is quantum mechanical. Not just abstractly know it's true in textbooks, but like everything you see is some excitation of a quantum field. It feels pretty weird to think that you can take some of those excitations, couple them together, make some of the excitations (e.g. a photon or an electron) behave as 'qubits' which have a state which can be used to store computational information (e.g. the 'Up' or 'Down' spin states of the electron), and then you can use that computational state to build a simulation... of excitations... in a quantum field ... like the spin of an electron... or the phase of a photon...
 
@@ -44,7 +44,7 @@ Aaaanyway...
 It's important to acknowledge that **quantum computers aren't more general than classic computers**, but for certain things, they're remarkably more efficient! So everything you can do with a quantum computer, you can simulate in a classical computer, given enough time/memory (what did you think the 'Universal' in 'Universal Turing Machine' was for?).
 
 ![image of P vs NP vs BQP]({{ site.baseurl }}/images/matter/quantum_c.svg)
-*this lovely diagram is from this [Simon's Foundation report](https://www.simonsfoundation.org/report2017/stories/scott-aaronson-quantum-and-classical-uncertainty/)*
+<small>*this lovely diagram is from this [Simon's Foundation report](https://www.simonsfoundation.org/report2017/stories/scott-aaronson-quantum-and-classical-uncertainty/)*<small>
 
 Digging into the strange hall of mirrors situation of reality simulating reality that is quantum computing seems a worthwhile diversion right now if we are to dig into the question about programmable matter. So let's do a whirlwind tour of quantum computing so that we can point out some intriguing points:
 
@@ -227,7 +227,7 @@ So this section is less about programming matter and more about asking why a par
 This is one implication of the ideas in [*Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems*](https://arxiv.org/abs/2104.13386). 
 
 ![Deep Physical neural nets]({{ site.baseurl }}/images/matter/physicalnn.png)
-*From [Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems](https://arxiv.org/abs/2104.13386)*
+<small>*From [Deep physical neural networks enabled by a backpropagation algorithm for arbitrary physical systems](https://arxiv.org/abs/2104.13386)*<small>
 
 The basic idea is that we can 'encode' some input into a physical system, like a metal sheet, as a set of vibrations. We can also encode the parameters of our neural net as another set of vibrations which can constructively or destructively interfere with our input vibrations. We can then 'read' the output of the 'network' as e.g. the wavepattern of vibrations attained after the two sets of vibrations have intermingled. The network is trained by comparing the output of the real system to that predicted by a physics simulator for the system, and then the 'parameter' vibrations are adjusted accordingly until the desired output of vibrations is created.
 
@@ -267,7 +267,7 @@ Surely the ability to rearrange matter at will would constitute 'programmable' m
 You saw the title of Drexler's book earlier, right? *Nanosystems - Molecular Machinery, Manufacturing, and **Computation***. In it, Drexler sketches plans for building nanomechanical computers (as opposed to the familiar electronic computers we use for most things). Nanomechanical computers don't use changing voltages in semi-conductors to represent zeros and ones, but instead  represent them using the displacement of tiny rods into specific locations.
 
 ![Babbage analytical engine]({{ site.baseurl }}/images/matter/babbage.jpg)
-*Visualise Babbage & Lovelace's mechanical computer, just a few billion times smaller*
+<small>*Visualise Babbage & Lovelace's mechanical computer, just a few billion times smaller*<small>
 
 So if we could build and control systems in the *machine phase* we'd have a crazy amount of power over physical matter - able to separate, store, and control vast swathes of the material world!
 
