@@ -162,7 +162,7 @@ Indeed, a tantalising possibility, realisable by ['programming' biological circu
 #### Programming with bioelectricity
 
 ![genetic, morphological, and bioelectric coordination]({{ site.baseurl }}/images/matter/cell_dev.png)
-<small>*This gorgeous [graphic](https://thenode.biologists.com/wp-content/uploads/2019/03/3-layers-e1551717789729.png) by Ben Oldroyd for the Levin Lab*<small>
+<p style="text-align:center";"font-size:xsmall">*This gorgeous [graphic](https://thenode.biologists.com/wp-content/uploads/2019/03/3-layers-e1551717789729.png) by Ben Oldroyd for the Levin Lab*</p>
 
 Cellular decision making is clearly reliant on more than just the cell's genome (after all, every cell in your body has the same genome). Even if you account for different patterns of gene-expression between tissue types, we're still left with unexplained fidelity in cellular morphological coordination. Enter biolelectricity! Turns out that simple physical variables like the charge-polarisation of cells can control wide-aspects of their morphology, and coordinate cells to adaptively achieve [complex macro-scale objectives](https://pubmed.ncbi.nlm.nih.gov/26571046/) (like building an eye, or coordinating to make sure the right nerve cells make their way to that eye so that it's usable). Oh, and there is[ increasingly awesome work by Michael Levin and colleagues](https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202000140) that shows that if we intelligently intervene in these bioelectric circuits, we can alter key aspects of cell differentiation and proliferation.
 
