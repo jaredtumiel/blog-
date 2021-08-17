@@ -317,7 +317,7 @@ So here's another thing: we can alter the properties of matter by creating [knot
 
 I don't know what things we might programme in this weird topological language. In a pleasingly-Ouroboros-like way, the most frequently given example for what topological matter enables is [fault-tolerant quantum computers](https://arxiv.org/abs/quant-ph/9707021).
 
-I say, let's programme matter with topology, and then use that topologically-protected quantum state to programme everything else! 
+I say let's programme matter with topology and then use that topologically-protected quantum state to programme everything else! 
 
 ### So is everything just information?
 
@@ -333,7 +333,7 @@ And so, even if we reject 'It-From-Bit', we must still account for 'information'
 
 I hope you enjoyed this tour of the ways matter can be programmed, as well as the many digressions to speak about computing in general. For more in this vein, I highly recommend Michael Nielsen's ongoing exploration of [the future of matter](https://futureofmatter.com/maps_of_matter.html). 
 
-Comments, twitter DMs, and emails with follow-up, links to more interesting stuff, and questions are always appreciated!
+Comments, twitter DMs, and links to more interesting stuff are always appreciated!
 
 Also, I am working on part 2 of the [FEP series](https://jaredtumiel.github.io/blog/2020/08/08/free-energy1.html), **I promise!**
 
